@@ -1,0 +1,14 @@
+const texts = {
+  ro: {
+    title: "LIOS",
+    message: "Această aplicație va primi actualizări în curând și vei putea vedea tot ce conține."
+  },
+  en: {
+    title: "LIOS",
+    message: "This app will be updated soon and you'll be able to see everything inside."
+  }
+};
+
+const lang = (navigator.language || "en").toLowerCase().startsWith("ro") ? "ro" : "en";
+const t = texts[lang];
+// afișezi t.title și t.message pe ecranul principal
