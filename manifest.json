@@ -1,0 +1,12 @@
+{
+  "id": "-",
+  "name": "Lios",
+  "version": "1.0.0",
+  "lane": "community",
+  "entry": "./main.tsx",
+  "icon": "./icon.png",
+  "author": "LIOS",
+  "repo": "https://github.com/doan-labs/duo/tree/main/community-apps/LIOS",
+  "license": "MIT",
+  "permissions": []
+}
